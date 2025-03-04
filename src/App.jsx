@@ -6,17 +6,7 @@ function App() {
 
   return (
     <>
-      <div className="flex justify-between">
-        <div>Child</div>
-        <div>Child</div>
-        <div>Child</div>
-        <div>Child</div>
-      </div>
-      <div className="grid grid-cols-12">
-        <div className="col-span-5 bg-blue-300">First</div>
-        <div className="col-span-5 bg-red-300">Second</div>
-        <div className="col-span-2 bg-green-300">Third</div>
-      </div>
+      <div className="bg-red-300 sm:bg-green-300">Hello World!</div>
     </>
   );
 }
