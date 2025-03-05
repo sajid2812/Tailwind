@@ -1,15 +1,15 @@
 import { useState } from "react";
 import "./App.css";
+import { Button } from "./components/Button";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div className="grid grid-cols-12" >
-        <div className="col-span-12 sm:col-span-5 bg-green-300 text-8xl rounded-full">First</div>
-        <div className="col-span-12 sm:col-span-5 bg-red-300">Second</div>
-        <div className="col-span-12 sm:col-span-2 bg-pink-300">Third</div>
+      <div className="h-screen bg-blue-700 flex justify-center items-center">
+        <div>
+          <h2 className="text-white text-2xl font-medium">Verify Your Age</h2>
+        </div>
+        <Button disabled={true}>Sign up</Button>
       </div>
     </>
   );
